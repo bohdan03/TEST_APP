@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+@property int n_curPinNumer;
 
 @end
 

@@ -10,11 +10,18 @@
 		5F219D661A83930F00DA355E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F219D651A83930F00DA355E /* main.m */; };
 		5F219D691A83930F00DA355E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F219D681A83930F00DA355E /* AppDelegate.m */; };
 		5F219D6C1A83930F00DA355E /* OurNet_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5F219D6A1A83930F00DA355E /* OurNet_Test.xcdatamodeld */; };
-		5F219D6F1A83930F00DA355E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F219D6E1A83930F00DA355E /* ViewController.m */; };
 		5F219D721A83930F00DA355E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F219D701A83930F00DA355E /* Main.storyboard */; };
 		5F219D741A83930F00DA355E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F219D731A83930F00DA355E /* Images.xcassets */; };
 		5F219D771A83930F00DA355E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F219D751A83930F00DA355E /* LaunchScreen.xib */; };
 		5F219D831A83930F00DA355E /* OurNet_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F219D821A83930F00DA355E /* OurNet_TestTests.m */; };
+		5F219D931A83972500DA355E /* BG - Blur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F219D8E1A83972500DA355E /* BG - Blur.jpg */; };
+		5F219D941A83972500DA355E /* Fill 519.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F219D8F1A83972500DA355E /* Fill 519.png */; };
+		5F219D951A83972500DA355E /* Map.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F219D901A83972500DA355E /* Map.png */; };
+		5F219D961A83972500DA355E /* Oval 12.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F219D911A83972500DA355E /* Oval 12.png */; };
+		5F219D971A83972500DA355E /* Selected Highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F219D921A83972500DA355E /* Selected Highlight.png */; };
+		5F219D9F1A839BD000DA355E /* MapPinView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F219D9E1A839BD000DA355E /* MapPinView.m */; };
+		5F219DA11A83A85500DA355E /* MapPinDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F219DA01A83A85500DA355E /* MapPinDataModel.m */; };
+		5F219DA51A83B5C000DA355E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F219DA41A83B5C000DA355E /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +41,24 @@
 		5F219D671A83930F00DA355E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5F219D681A83930F00DA355E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5F219D6B1A83930F00DA355E /* OurNet_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OurNet_Test.xcdatamodel; sourceTree = "<group>"; };
-		5F219D6D1A83930F00DA355E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5F219D6E1A83930F00DA355E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5F219D711A83930F00DA355E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F219D731A83930F00DA355E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5F219D761A83930F00DA355E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5F219D7C1A83930F00DA355E /* OurNet_TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OurNet_TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F219D811A83930F00DA355E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F219D821A83930F00DA355E /* OurNet_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OurNet_TestTests.m; sourceTree = "<group>"; };
+		5F219D8E1A83972500DA355E /* BG - Blur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BG - Blur.jpg"; sourceTree = "<group>"; };
+		5F219D8F1A83972500DA355E /* Fill 519.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fill 519.png"; sourceTree = "<group>"; };
+		5F219D901A83972500DA355E /* Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Map.png; sourceTree = "<group>"; };
+		5F219D911A83972500DA355E /* Oval 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Oval 12.png"; sourceTree = "<group>"; };
+		5F219D921A83972500DA355E /* Selected Highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Selected Highlight.png"; sourceTree = "<group>"; };
+		5F219D9C1A8399B700DA355E /* MapInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapInfo.h; sourceTree = "<group>"; };
+		5F219D9D1A839BD000DA355E /* MapPinView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPinView.h; sourceTree = "<group>"; };
+		5F219D9E1A839BD000DA355E /* MapPinView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPinView.m; sourceTree = "<group>"; };
+		5F219DA01A83A85500DA355E /* MapPinDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPinDataModel.m; sourceTree = "<group>"; };
+		5F219DA21A83A86F00DA355E /* MapPinDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapPinDataModel.h; sourceTree = "<group>"; };
+		5F219DA31A83B5C000DA355E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5F219DA41A83B5C000DA355E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,14 +100,9 @@
 		5F219D621A83930F00DA355E /* OurNet_Test */ = {
 			isa = PBXGroup;
 			children = (
-				5F219D671A83930F00DA355E /* AppDelegate.h */,
-				5F219D681A83930F00DA355E /* AppDelegate.m */,
-				5F219D6D1A83930F00DA355E /* ViewController.h */,
-				5F219D6E1A83930F00DA355E /* ViewController.m */,
-				5F219D701A83930F00DA355E /* Main.storyboard */,
-				5F219D731A83930F00DA355E /* Images.xcassets */,
-				5F219D751A83930F00DA355E /* LaunchScreen.xib */,
-				5F219D6A1A83930F00DA355E /* OurNet_Test.xcdatamodeld */,
+				5F219D981A83972E00DA355E /* native */,
+				5F219D8C1A83972500DA355E /* Classes */,
+				5F219D8D1A83972500DA355E /* Resource */,
 				5F219D631A83930F00DA355E /* Supporting Files */,
 			);
 			path = OurNet_Test;
@@ -120,6 +132,69 @@
 				5F219D811A83930F00DA355E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F219D8C1A83972500DA355E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5F219D991A83997B00DA355E /* Control */,
+				5F219D9A1A83997B00DA355E /* Model */,
+				5F219D9B1A83997B00DA355E /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5F219D8D1A83972500DA355E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				5F219D8E1A83972500DA355E /* BG - Blur.jpg */,
+				5F219D8F1A83972500DA355E /* Fill 519.png */,
+				5F219D901A83972500DA355E /* Map.png */,
+				5F219D911A83972500DA355E /* Oval 12.png */,
+				5F219D921A83972500DA355E /* Selected Highlight.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		5F219D981A83972E00DA355E /* native */ = {
+			isa = PBXGroup;
+			children = (
+				5F219D671A83930F00DA355E /* AppDelegate.h */,
+				5F219D681A83930F00DA355E /* AppDelegate.m */,
+				5F219D731A83930F00DA355E /* Images.xcassets */,
+				5F219D6A1A83930F00DA355E /* OurNet_Test.xcdatamodeld */,
+			);
+			name = native;
+			sourceTree = "<group>";
+		};
+		5F219D991A83997B00DA355E /* Control */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		5F219D9A1A83997B00DA355E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5F219D9C1A8399B700DA355E /* MapInfo.h */,
+				5F219DA01A83A85500DA355E /* MapPinDataModel.m */,
+				5F219DA21A83A86F00DA355E /* MapPinDataModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5F219D9B1A83997B00DA355E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5F219D751A83930F00DA355E /* LaunchScreen.xib */,
+				5F219D701A83930F00DA355E /* Main.storyboard */,
+				5F219DA31A83B5C000DA355E /* ViewController.h */,
+				5F219DA41A83B5C000DA355E /* ViewController.m */,
+				5F219D9D1A839BD000DA355E /* MapPinView.h */,
+				5F219D9E1A839BD000DA355E /* MapPinView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,9 +277,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F219D951A83972500DA355E /* Map.png in Resources */,
 				5F219D721A83930F00DA355E /* Main.storyboard in Resources */,
+				5F219D971A83972500DA355E /* Selected Highlight.png in Resources */,
+				5F219D941A83972500DA355E /* Fill 519.png in Resources */,
 				5F219D771A83930F00DA355E /* LaunchScreen.xib in Resources */,
 				5F219D741A83930F00DA355E /* Images.xcassets in Resources */,
+				5F219D931A83972500DA355E /* BG - Blur.jpg in Resources */,
+				5F219D961A83972500DA355E /* Oval 12.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,10 +302,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F219DA51A83B5C000DA355E /* ViewController.m in Sources */,
 				5F219D691A83930F00DA355E /* AppDelegate.m in Sources */,
 				5F219D661A83930F00DA355E /* main.m in Sources */,
-				5F219D6F1A83930F00DA355E /* ViewController.m in Sources */,
 				5F219D6C1A83930F00DA355E /* OurNet_Test.xcdatamodeld in Sources */,
+				5F219DA11A83A85500DA355E /* MapPinDataModel.m in Sources */,
+				5F219D9F1A839BD000DA355E /* MapPinView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +336,7 @@
 				5F219D711A83930F00DA355E /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		5F219D751A83930F00DA355E /* LaunchScreen.xib */ = {
@@ -262,6 +345,7 @@
 				5F219D761A83930F00DA355E /* Base */,
 			);
 			name = LaunchScreen.xib;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -349,9 +433,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = OurNet_Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -359,9 +446,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = OurNet_Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
